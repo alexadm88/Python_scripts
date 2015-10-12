@@ -130,5 +130,4 @@ else:
     study_command = subprocess.Popen(study_str, shell=True, stdout = subprocess.PIPE).communicate()[0]
     print type(study_command)
     print study_command[1]
-    print study_str
 
